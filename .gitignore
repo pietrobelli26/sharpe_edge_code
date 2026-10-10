@@ -1,1 +1,10 @@
+# os
 .DS_Store
+
+# virtual env
+.env/
+requirements.txt
+
+# md files
+CLAUDE.md
+HANDOFF.md
