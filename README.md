@@ -10,8 +10,7 @@ Each video has its own folder with the Jupyter notebook shown on screen, so you 
 
 - Every folder is **self-contained and independent** from the others: pick the video you are interested in and open its notebook.
 - Each notebook lists its dependencies in the first cell (`pip install ...`) and uses only relative paths, so it runs from scratch on any machine.
-- Market data comes from [`yfinance`](https://github.com/ranaroussi/yfinance), from small datasets included in the video folder, or from public Kaggle datasets downloaded automatically by the notebook.
-- Charts are interactive [Plotly](https://plotly.com/python/) figures.
+- Market data comes from [`yfinance`](https://github.com/ranaroussi/yfinance) or from public Kaggle datasets downloaded automatically by the notebook.
 
 ## Getting started
 
@@ -30,16 +29,16 @@ Open the notebook of the video you want and run it top to bottom.
 
 ## Repository structure
 
-| Folder | Topic |
-| --- | --- |
-| [`logistic_regression/`](logistic_regression/) | Logistic regression for trading signals |
-| [`signal_filter_svm/`](signal_filter_svm/) | Meta-labeling: filtering trading signals with an SVM (Nasdaq 100 data downloaded from Kaggle) |
-| [`prop_firm_monte_carlo/`](prop_firm_monte_carlo/) | Monte Carlo simulation of prop firm challenges |
-| [`live_monitoring/`](live_monitoring/) | Monitoring a live strategy |
-| [`kalman_trend_filter/`](kalman_trend_filter/) | Trend filtering with a Kalman filter |
-| [`portfolio_management/`](portfolio_management/) | Portfolio management |
-
-Each folder contains only the video's notebook and, where needed, its small datasets.
+| Folder | Topic | Video |
+| --- | --- | --- |
+| [`logistic_regression/`](logistic_regression/) | Logistic regression for trading signals | [Watch](https://youtu.be/jh4OlQQUaMc) |
+| [`signal_filter_svm/`](signal_filter_svm/) | Meta-labeling: filtering trading signals with a SVM | [Watch](https://youtu.be/1_0d1peItok) |
+| [`prop_firm_monte_carlo/`](prop_firm_monte_carlo/) | Monte Carlo simulation of prop firm challenges | [Watch](https://youtu.be/DTVjwgob_E8) |
+| [`live_monitoring/`](live_monitoring/) | Monitoring a live strategy (alpha decay) | [Watch](https://youtu.be/CWOhChDdnn4) |
+| [`kalman_trend_filter/`](kalman_trend_filter/) | Trend filtering with a Kalman filter | [Watch](https://youtu.be/nhY9xfK540Q) |
+| [`portfolio_management/`](portfolio_management/) | Portfolio management | [Watch](https://youtu.be/XDnnBQqvQlE) |
+| [`market_regimes/`](market_regimes/) | Market regime classification | [Watch](https://youtu.be/dzGEf3QWmXU) |
+| [`pairs_trading/`](pairs_trading/) | Pairs trading: cointegration, hedge ratio and backtest | [Watch](https://youtu.be/_yrv7kb_CRY) |
 
 ## Disclaimer
 
